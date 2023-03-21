@@ -50,6 +50,7 @@ class Header {
 
       const searchValue = searchInput.value;
       renderMovieList("search", searchValue);
+      searchInput.blur();
     });
 
     if ($logo) {
